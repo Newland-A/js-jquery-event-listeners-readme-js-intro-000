@@ -30,10 +30,10 @@ function pressIt() {
 $(document).ready(function(){
 
 // call functions here
-getIt()
-submitIt()
-frameIt()
-pressIt()
+  getIt();
+  frameIt();
+  submitIt();
+  pressIt();
 
 
 });
