@@ -14,12 +14,17 @@ function frameIt() {
 function submitIt(){
   $('form').on('submit', function() { 
     alert('Your form is going to be submitted now.');
-  
 });
 }
 
 function pressIt() {
-  
+  $(document).on('keydown', function(e){
+    const key = parseInt(e.detail || e.which);
+    
+    if(key === 71) {
+      alert('The "g" key was pressed.');
+    }
+  });
 }
 
 $(document).ready(function(){
