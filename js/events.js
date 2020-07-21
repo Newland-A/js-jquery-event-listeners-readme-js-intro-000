@@ -4,7 +4,9 @@ function getIt(){
 }
 
 function frameIt() {
-  
+  $('img').on('load', function(){
+  //actions you want to happen
+});
 }
 
 function submitIt(){
